@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR CODE GENERATOR</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="generator-container">
+      <h1 class="title"><u>QR_CODE GENERATOR</u></h1>
+      <div class="text">
+        <input type="text" id="qr-text" placeholder="Enter your url" />
+        <button id="btn">Press</button>
+      </div>
+      <div class="qr-sample">
+        <img
+          src="./image/myqrcode.png"
+          class="code"
+          alt="QR_CODE de votre url"
+        />
+        <span><u> Qr code sample </u></span>
+      </div>
+      <p id="message">Love code and learn by <em>leo-dev {#}</em></p>
+    </div>
+    <div>
+      <p id="qr-validation">your QR code has been generated</p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
